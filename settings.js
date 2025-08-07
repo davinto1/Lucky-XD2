@@ -10,9 +10,9 @@ SESSION_ID: process.env.SESSION_ID || "lucky~eN9zlD6I#Y8CWgRdvf5_4s_PkHhUaUmLQ4r
 // add your Session Id make sure it starts with lucky~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "LUCKY-XD",
+BOT_NAME: process.env.BOT_NAME || "Davinto-MD",
 // add bot name here for menu
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 
 LINK_WHITELIST: "youtube.com,github.com",
@@ -34,13 +34,13 @@ LINK_WHITELIST: "youtube.com,github.com",
 // set the auto reply massage on status reply  
 
 
-       WELCOME: process.env.WELCOME || "false",
+       WELCOME: process.env.WELCOME || "true",
 // true if want welcome and goodbye msg in groups 
    
-       ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
+       ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 // make true to know who dismiss or promoted a member in group
 
-      ANTI_LINK: process.env.ANTI_LINK || "false",
+      ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 
       MENTION_REPLY: process.env.MENTION_REPLY || "false",
@@ -74,7 +74,7 @@ LINK_WHITELIST: "youtube.com,github.com",
 OWNER_NAME: process.env.OWNER_NAME || "Davinto",
 // add bot owner name
 
-              DESCRIPTION: process.env.DESCRIPTION || "*© Powered By Lucky Tech Hub*",
+              DESCRIPTION: process.env.DESCRIPTION || "*© Powered By Davinto Tech Hub*",
 // add bot owner name    
 
         READ_MESSAGE: process.env.READ_MESSAGE || "false",
@@ -94,13 +94,13 @@ OWNER_NAME: process.env.OWNER_NAME || "Davinto",
               AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
 
-        ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+        ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 
          PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
 
-        AUTO_TYPING: process.env.AUTO_TYPING || "false",
+        AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing 
   
    READ_CMD: process.env.READ_CMD || "false",
